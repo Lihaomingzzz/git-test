@@ -42,6 +42,9 @@
             - git的一些常用的命令
                 - git restore 文件名：将文件重置到修改前的状态
                 - git restore * ：将文件夹下的所有文件全部重置到修改前的状态
-                
+                - git restore
+
                 - git rm 文件名 ：删除该文件
+                - git rm 文件名 -f：强制删除该文件
+
 */
