@@ -40,11 +40,20 @@
                 - 有多个已修改的文件 可以使用 git commit -a -m "xxx" 来全部进入暂存状态然后提交，但前提是该文件已追踪了，否则还是要用git add <filename>
 
             - git的一些常用的命令
-                - git restore 文件名：将文件重置到修改前的状态
-                - git restore * ：将文件夹下的所有文件全部重置到修改前的状态
-                - git restore --staged 文件名 ：将文件从暂存的状态取消，但不会取消操作（删除了的就是删除了）
+                1. 恢复文件
+                    - git restore 文件名：将文件重置到修改前的状态
+                    - git restore * ：将文件夹下的所有文件全部重置到修改前的状态
+                    - git restore --staged 文件名 ：将文件从暂存的状态取消
+                
+                2. 删除文件
+                    - git rm 文件名 ：删除该文件
+                    - git rm 文件名 -f：强制删除该文件
 
-                - git rm 文件名 ：删除该文件
-                - git rm 文件名 -f：强制删除该文件
+                - 先git rm 一个文件，然后文件会被删除，同时会变成暂存状态，如果想恢复文件，
+                  要先 git restore --staged 该文件，将该文件从暂存状态取消，
+                  然后再 git restore 该文件，恢复该文件
+
+                3. 移动文件
+                    - git mv from to
 
 */
