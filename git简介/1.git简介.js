@@ -53,7 +53,7 @@
                   要先 git restore --staged 该文件，将该文件从暂存状态取消，
                   然后再 git restore 该文件，恢复该文件
 
-                3. 移动文件
-                    - git mv from to
+                3. 移动文件（重命名）
+                    - git mv 修改前文件名 修改后文件名 ：用于修改文件名的
 
 */
