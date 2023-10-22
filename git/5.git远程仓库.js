@@ -11,7 +11,7 @@
         - 关于Github
             - 创建github远程仓库
                 1. 首页有个 Create repository 就是创建一个新仓库的意思，填下信息，创建完毕
-                2. 提交本地库上传到远程github仓库
+                2. 上传分支到远程github仓库
                     一些命令：
                         1. git remote add 远程服务器的名字（自己取名就行） 远程库的地址
                             - 关联本地git仓库与远程仓库
