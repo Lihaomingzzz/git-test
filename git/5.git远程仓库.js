@@ -23,6 +23,14 @@
                             git config --global http.proxy http://127.0.0.1:7890 
                             git config --global https.proxy http://127.0.0.1:7890
 
+        - 关于Gitee
+            - 创建Gitee远程仓库
+                上传分支到Gitee上的一些命令：
+                    1. git remote add 远程服务器的名字（还是自己取，但是不能和已关联的服务器名字相同） https://gitee.com/Lihaomingzzz/git-demo.git
+                    2. git push -u 远程服务器的名字 分支名字
 
+        - 如何下载代码？
+            命令行输入 git clone 代码地址
+            - 这时就会自动连接git，下载代码
                             
     */
