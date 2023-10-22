@@ -19,4 +19,10 @@
                             - 修改当前主分支的名字
                         3. git push -u 远程服务器的名字（要和remotes中的一样） 当前主分支的名字
                             - 上传
+                        - 上传时常常报错，网络问题，需要终端配置一下，设置上vpn的端口
+                            git config --global http.proxy http://127.0.0.1:7890 
+                            git config --global https.proxy http://127.0.0.1:7890
+
+
+                            
     */
