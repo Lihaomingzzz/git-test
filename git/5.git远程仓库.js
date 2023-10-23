@@ -17,8 +17,8 @@
                             - 关联本地git仓库与远程仓库
                         2. git branch -M 新分支名
                             - 修改当前主分支的名字
-                        3. git push -u 远程服务器的名字（要和remotes中的一样） 当前主分支的名字
-                            - 上传
+                        3. git push -u 要推送的远程服务器的名字（要和remotes中的一样） 当前主分支的名字
+                            - git push其实就是推送，不过这里是让你选择默认推送，选完后就能git push直接推送了
                         - 上传时常常报错，网络问题，需要终端配置一下，设置上vpn的端口
                             git config --global http.proxy http://127.0.0.1:7890 
                             git config --global https.proxy http://127.0.0.1:7890
