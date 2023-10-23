@@ -21,6 +21,9 @@
                 1. git tag ：查看所有标签
                 2. git tag 要设置的标签名 ：给当前所在节点设置标签
                 3. git tag 要设置的标签名 UID ：给当前UID的节点设置标签
+                4. git push 远程仓库名 --tags ：推送所有标签
+                5. git tag -d 标签名 ：删除本地标签
+                6. git push 远程仓库名 --delete 标签名 ：删除远程仓库的标签
             
             - 设置上tag时，想要回到那个节点，就直接 git switch tag标签名 ，就行了。tag标签替代了UID
             - 推送也是一样的，可以用标签名替代分支名，不过这时标签和分支会在github上分开显示
